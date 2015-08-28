@@ -1,10 +1,10 @@
-# docker-nc
+# appropriate/nc
 Alpine-based image with just nc (via the netcat-openbsd package)
 
 ## Usage
 
 ```console
-$ docker run --rm appropriate/nc -fsSL https://www.google.com/
+$ docker run -it --rm appropriate/nc 127.0.0.1 80 < input
 ```
 
 ## Tags
